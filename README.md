@@ -2,6 +2,10 @@
 
 This is a template repository which allows for an external set of QMK keymaps to be defined and compiled. This is useful for users who want to maintain their own keymaps without having to fork the main QMK repository.
 
+## FORK NOTE
+
+* This repository is meant for keymaps only, and the `keyboards` folder is not intended to support out-of-tree keyboards. This is currently used by me only for archiving purpose.
+
 ## Howto configure your build targets
 
 1. Run the normal `qmk setup` procedure if you haven't already done so -- see [QMK Docs](https://docs.qmk.fm/#/newbs) for details.
