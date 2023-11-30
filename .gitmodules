@@ -1,0 +1,3 @@
+[submodule "keyboards/sakata"]
+	path = keyboards/sakata
+	url = git@github.com:JunoNgx/sakata.git
