@@ -378,7 +378,8 @@ bool music_mask_user(uint16_t keycode) {
         rgblight_sethsv_noeeprom(100, 255, 100);
         // Ruby
         // rgblight_sethsv_noeeprom(253, 255, 140);
-
+        // Topaz
+        // rgblight_sethsv_noeeprom(10, 255, 140);
         
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
     }
