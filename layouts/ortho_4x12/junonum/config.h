@@ -19,6 +19,13 @@
 */
 #define MIDI_BASIC
 
+#ifdef KEYBOARD_planck_ez
+   #define ORYX_CONFIGURATOR
+   #define PLANCK_EZ_LED_LOWER 3
+   #define PLANCK_EZ_LED_RAISE 4
+   #define PLANCK_EZ_LED_ADJUST 6
+#endif
+
 /* enable advanced MIDI features:
    - MIDI notes can be added to the keymap
    - Octave shift and transpose
