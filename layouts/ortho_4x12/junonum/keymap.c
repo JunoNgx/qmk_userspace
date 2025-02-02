@@ -372,14 +372,15 @@ bool music_mask_user(uint16_t keycode) {
 #ifdef RGBLIGHT_ENABLE
     void keyboard_post_init_user(void) {
         rgblight_enable_noeeprom(); // Enables RGB, without saving settings
-        // Amethyst
+
+        // Amethyst, for Zero
         // rgblight_sethsv_noeeprom(240, 255, 170);
-        // Emerald
+        // Topaz, for Rosa
+        // rgblight_sethsv_noeeprom(10, 255, 140);
+        // Emerald, for Raime
         rgblight_sethsv_noeeprom(100, 255, 100);
         // Ruby
         // rgblight_sethsv_noeeprom(253, 255, 140);
-        // Topaz
-        // rgblight_sethsv_noeeprom(10, 255, 140);
         
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
     }
