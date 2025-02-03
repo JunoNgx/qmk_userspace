@@ -26,6 +26,9 @@
    #define PLANCK_EZ_LED_ADJUST 6
 #endif
 
+// Fix startup audio
+#define AUDIO_INIT_DELAY
+
 /* enable advanced MIDI features:
    - MIDI notes can be added to the keymap
    - Octave shift and transpose
